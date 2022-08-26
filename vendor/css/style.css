@@ -1,0 +1,32 @@
+
+#exampleModalLabel.modal-title{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.modal-content{
+    background: rgb(255, 255, 255);
+}
+
+label{
+    font-size: 22px;
+    font-weight: bold;
+    color: #80c1ff;
+}
+
+.btn:not(:disabled):not(.disabled){
+    font-size: 20px;
+    
+}
+
+.modal-header{
+    background: rgb(128,193,255);
+background: linear-gradient(90deg, rgba(128,193,255,1) 52%, rgb(60, 128, 255) 100%);
+}
+
+.modal-footer{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgb(90, 147, 253) 0%, rgb(138, 199, 255) 62%);
+}
+

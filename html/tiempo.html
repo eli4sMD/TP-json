@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>TP Json</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="../css/estilo.css">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">Json</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Provincias</a></li>
+                        <li class="nav-item"><a class="nav-link" href="tiempo.html">Tiempo</a></li>
+                        <li class="nav-item"><a class="nav-link" href="covid-19.html">Covid 19</a></li>
+                        <li class="nav-item"><a class="nav-link" href="conversor.html">Conversor</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page content-->
+        <h2 class="text-center">Seleccione una provincia y localidad para obtener información sobre el clima.</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center">
+                    <form class="mt-5">
+                        <div class class="form-group">
+                            <label for="provincia">Provincias</label>
+                            <select class="form-control1" name="provincia" id="provincia" onchange="selectLocalidad()">
+                            </select>
+                        </div>
+                    
+                        <label for="localidad">Localidades</label>
+                        <select class="form-control1" name="localidad" id="localidad" ></select>
+                    </form>
+                </div>
+                    <div class="col-lg-6 text-center">
+                        <form class="mt-5">
+                            <h3 style="font-weight: bold; text-align: left;">Información:</h3>
+                            <div id="información"></div>
+                            <div id="clima"></div>
+                        </form>
+                    </div>
+            </div>
+        </div>
+    
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="/js/tiempo.js"></script>
+    </body>
+</html>

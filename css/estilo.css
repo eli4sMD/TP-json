@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+}
+
+label{
+    margin: 20px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 8px;
+    display:block;
+}
+
+
+.form-control1{
+
+    height: 50px;
+    border-color: rgb(60, 255, 0);
+    border-width: 5px;
+}
+
+
+#información {
+    margin: 20px;
+    text-align: left;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+#clima{
+    text-align: left;
+    padding-left: 22px;
+}
+
+#descripcion2{
+margin: 25px;
+padding: 15px;
+}
+
+h2{
+    font-size: 29px;
+    margin: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+span {
+    color: white;
+}
+
+.convertButton {
+    background-color: rgb(51, 255, 0);
+}
+
+#conv {
+    padding-top: 150px;
+}
